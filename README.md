@@ -2,6 +2,7 @@
 
 ## Description
 
+This app would be used by any business owner to be able to view and manage their company. It will assist the owner to keep track and organize their departments, roles, and employees of the company in one system. The owner can add, delete, and view the departments and make changes as needed. 
 
 ## Acceptance Criteria
 
@@ -25,11 +26,13 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 ## Installation
 - npm i inquirer@8.2.4
-- npm i uuidv4
+- npm i mysql2
+- npm i console.table
+
 
 ## Mock-Up
 
-[![A video thumbnail shows the command-line employee management application with a play button overlaying the view.](./Assets/12-sql-homework-video-thumbnail.png)](https://2u-20.wistia.com/medias/2lnle7xnpk)
+[![A video thumbnail shows the command-line employee management application with a play button overlaying the view.](./Assets/12-sql-homework-video-thumbnail.png)]
 
 ## Demonstartion Video
 
