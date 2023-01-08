@@ -32,7 +32,7 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 ## Mock-Up
 
-[![A video thumbnail shows the command-line employee management application with a play button overlaying the view.](./Assets/12-sql-homework-video-thumbnail.png)]
+[A video thumbnail shows the command-line employee management application with a play button overlaying the view.](./Assets/12-sql-homework-video-thumbnail.png)](https://2u-20.wistia.com/medias/2lnle7xnpk)
 
 ## Demonstartion Video
 
