@@ -32,7 +32,7 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 ## Mock-Up
 
-[Boot Camp Mock-up](./Assets/12-sql-homework-video-thumbnail.png)](https://2u-20.wistia.com/medias/2lnle7xnpk)
+[![Boot Camp Mock-up](./Assets/12-sql-homework-video-thumbnail.png)](https://2u-20.wistia.com/medias/2lnle7xnpk)
 
 ## Demonstartion Video
 
