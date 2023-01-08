@@ -1,7 +1,7 @@
 const inquirer = require("inquirer");
 const connection = require("./assets/connection");
 
-
+//listing choices
 function start(){
     inquirer.prompt(
         {
@@ -116,22 +116,22 @@ function addEmployee(){
         {
             type: "input",
             name: "first_name",
-            message: "What is the new employee's first name?"
+            message: "What is the employee's first name?"
         },
         {
             type: "input",
             name: "last_name",
-            message: "What is the new employee's last name?"
+            message: "What is the employee's last name?"
         },
         {
             type: "input",
             name: "manager_id",
-            message: "Who is the new employee's manager? Enter the manager's ID",
+            message: "Who is the employee's manager? Add manager's ID",
         },
         {
             type: "input",
             name: "role_id",
-            message: "What is the new employee's role? Enter the role ID",
+            message: "What is the new employee's role? Add role ID",
         },
     ])
     .then(answers => {
@@ -156,17 +156,17 @@ function addRole(){
         {
             type: "input",
             name: "title",
-            message: "What is the new role?"
+            message: "What is the name of the new role?"
         },
         {
             type: "input",
             name: "salary",
-            message: "What is the new role's salary?"
+            message: "What is the salary of the role?"
         },
         {
             type: "input",
             name: "department_id",
-            message: "Who is the new role's department? Enter the department's ID",
+            message: "Which department does the role belong to? Add department's ID",
         }
     ])
     .then(answers => {
@@ -190,7 +190,7 @@ function addDepartment(){
         {
             type: "input",
             name: "name",
-            message: "What is the new department?"
+            message: "What is the name of the new department?"
         }
     ])
     .then(answers => {
